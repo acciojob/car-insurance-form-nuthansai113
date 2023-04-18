@@ -1,16 +1,61 @@
-<!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>car insurance form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <form action="asd.php" method="post">
+    <div>
+      <label for="Name">Name</label>
+      <input type="text" id="name" name="Name" placeholder="Name">
+    </div><br>
 
+    <div>
+      <label for="Email">Email</label>
+      <input type="email" required placeholder="Email" id="email" name="email">
+    </div><br>
+
+    <div>
+      <label for="gender">gender</label>
+      <input type="radio" name="gender" required id="gender_m">male
+      <input type="radio" name="gender" required id="gender_f">female
+    </div><br>
+
+    <div>
+      <label for="carbrands">car brands</label>
+      <select name="car Brands" id="cars">
+      <option value="">Please choose an option</option>
+      <option value="BMW">BMW</option>
+      <option value="Audi">Audi</option>
+      <option value="Mercedez">Mercedez</option>
+    </select>
+    </div><br>
+
+    <div>
+      <label for="car age">car age</label>
+      <input type="number" id="carage" required name="carage">
+    </div><br>
+
+    <div>
+      <label for="Date of Purchase">Date of Purchase</label>
+      <input type="date"required id="dop" name="dop">
+    </div><br>
+
+    <div>
+      <label for="password">password</label>
+      <input type="password" placeholder="password" id="password" name="password">
+    </div><br>
+
+    <div>
+      <button>subbmit</button>
+    </div>
+
+
+  </form>
+
+  
+  
 </body>
-
 </html>
